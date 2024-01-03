@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+
+    .left {
+        flex: 1;
+        text-align: left;
+    }
+
+    .title {
+        margin-top: 0px;
+        height: 40px;
+    }
+
+    .right {
+        flex: 1;
+        text-align: right;
+    }
+
+    margin-bottom: 20px;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+} 
