@@ -41,7 +41,7 @@ const rawQuestionList = [
 const { Title } = Typography;
 
 const Trash: FC = () => {
-  const [questionList, setQuestionList] = useState(rawQuestionList);
+  const [questionList] = useState(rawQuestionList);
 
   return (
     <>

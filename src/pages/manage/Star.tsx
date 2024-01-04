@@ -24,7 +24,7 @@ const rawQuestionList = [
   },
 ];
 const Star: FC = () => {
-  const [questionList, setQuestionList] = useState(rawQuestionList);
+  const [questionList] = useState(rawQuestionList);
 
   return (
     <>
