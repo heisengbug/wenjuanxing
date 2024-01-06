@@ -2,6 +2,7 @@ import React, { FC, useState } from "react";
 import styles from "./common.module.scss";
 import QuestionCard from "../../components/QuestionCard";
 import { Typography } from "antd";
+import ListSearch from "../../components/ListSearch";
 
 const rawQuestionList = [
   {
@@ -51,7 +52,9 @@ const Trash: FC = () => {
         </div>
         <div className={styles.right}>
           {" "}
-          <Title level={3}>search</Title>{" "}
+          <Title level={3}>
+            <ListSearch />
+          </Title>{" "}
         </div>
       </div>
       <div className={styles.content}>

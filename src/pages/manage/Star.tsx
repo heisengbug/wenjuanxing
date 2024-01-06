@@ -1,5 +1,6 @@
 import { Empty, Typography } from "antd";
 import React, { FC, useState } from "react";
+import ListSearch from "../../components/ListSearch";
 import QuestionCard from "../../components/QuestionCard";
 import styles from "./common.module.scss";
 
@@ -34,7 +35,9 @@ const Star: FC = () => {
         </div>
         <div className={styles.right}>
           {" "}
-          <Title level={3}>search</Title>{" "}
+          <Title level={3}>
+            <ListSearch />
+          </Title>{" "}
         </div>
       </div>
       <div className={styles.content}>
